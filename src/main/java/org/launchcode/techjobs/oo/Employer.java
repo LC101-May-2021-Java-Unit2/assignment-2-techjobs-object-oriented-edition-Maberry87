@@ -11,6 +11,7 @@ public class Employer {
     public Employer() {
         id = nextId;
         nextId++;
+        this.id = id;
     }
 
     public Employer(String value) {
